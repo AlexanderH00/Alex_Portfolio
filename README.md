@@ -4,4 +4,5 @@
 <p align="center">
   The first version of <a href="https://..." target="_blank">alexharry.com</a> built with HTML & CSS
 </p>
-![Screenshot 2024-02-25 150903](https://github.com/AlexanderH00/Alex_Portfolio/assets/149702761/c6d23b64-2414-4288-b0b4-92eef92d8ce2)
+
+![Screenshot 2024-02-25 150903](https://github.com/AlexanderH00/Alex_Portfolio/assets/149702761/8184776d-acba-4b78-b2ec-b1a2f7452382)
