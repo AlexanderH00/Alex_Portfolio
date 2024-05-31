@@ -343,7 +343,6 @@ header {
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
   display: inline-block;
-  padding-right: 20%; /* Adjust the value as needed */
 }
 
 .Modern-Slider .info h1 {
