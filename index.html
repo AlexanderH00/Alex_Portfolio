@@ -1,43 +1,81 @@
- 
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
-<head>
-    <meta charset="utf-8">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Alexander Harry</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="css/fontAwesome.css">
-    <link rel="stylesheet" href="css/light-box.css">
-    <link rel="stylesheet" href="css/owl-carousel.css">
-    <link rel="stylesheet" href="css/templatemo-style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Alexander Harry</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-    <style>
-        /* Custom styles for larger carousel arrows */
-        .carousel-control.left,
-        .carousel-control.right {
-            background-image: none;
-            color: #000;
-            font-size: 30px;
-            width: 5%;
-        }
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link rel="stylesheet" href="css/light-box.css">
+        <link rel="stylesheet" href="css/owl-carousel.css">
+        <link rel="stylesheet" href="css/templatemo-style.css">
 
-        .carousel-control.left {
-            left: -5%;
-        }
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 
-        .carousel-control.right {
-            right: -5%;
-        }
-    </style>
-</head>
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        
+        <style>
+            .owl-prev, .owl-next {
+                color: #fff;
+                display: inline-block;
+                font-size: 60px; /* Increase the font size */
+                opacity: 1;
+                transition: all 0.3s;
+            }
+
+            .owl-prev:hover, .owl-next:hover {
+                color: #ddd;
+            }
+
+            .owl-dots {
+                display: none;
+            }
+
+            .owl-nav {
+                text-align: center;
+                position: absolute;
+                width: 100%;
+                left: 0;
+                top: 45%;
+                z-index: 999;
+            }
+
+            .owl-prev {
+                position: absolute;
+                left: 20px;
+                top: 20px;
+            }
+
+            .owl-next {
+                position: absolute;
+                right: 20px;
+                top: 20px;
+            }
+
+            .item .img-fill {
+                min-width: 100%;
+                min-height: 100vh;
+                width: 100%;
+                height: 100vh;
+                background-size: cover;
+                background-position: center center;
+                background-repeat: no-repeat;
+                position: relative;
+            }
+
+            .item .img-fill img {
+                visibility: hidden;
+            }
+        </style>
+    </head>
 
 <body>
     <header class="nav-down responsive-nav hidden-lg hidden-md">
@@ -47,6 +85,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
+        <!--/.navbar-header-->
         <div id="main-nav" class="collapse navbar-collapse">
             <nav>
                 <ul class="nav navbar-nav">
@@ -59,7 +98,7 @@
         </div>
     </header>
 
-    <div class="sidebar-navigation hidden-sm hidden-xs">
+    <div class="sidebar-navigation hidde-sm hidden-xs">
         <div class="logo">
             <a href="#">Alexander<em>Harry</em></a>
         </div>
@@ -107,15 +146,15 @@
             <!-- Item -->
             <div class="item item-1">
                 <div class="img-fill">
-                    <div class="image"></div>
-                    <div class="info">
-                        <div>
-                            <h1>Home</h1>
-                            <p>My educational and vocational pursuits have ignited a profound passion for software engineering and computer systems, driving my commitment to innovation and excellence. <br>Exceptional communication skills enable me to excel in diverse environments, working diligently and thriving in collaborative team settings.</p>
-                            <div class="white-button button">
-                                <a href="#about">Discover More</a>
-                            </div>
-                        </div>
+                <div class="image"></div>
+                <div class="info">
+                    <div>
+                      <h1>Home</h1>
+                      <p>My educational and vocational pursuits have ignited a profound passion for software engineering and computer systems, driving my commitment to innovation and excellence. <br>Exceptional communication skills enable me to excel in diverse environments, working diligently and thriving in collaborative team settings.</p>
+                      <div class="white-button button">
+                          <a href="#about">Discover More</a>
+                      </div>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -125,21 +164,22 @@
                 <div class="img-fill">
                     <div class="image"></div>
                     <div class="info">
-                        <div>
-                            <h1>Home</h1>
-                            <p>Eager to bring dynamic innovations to the tech industry and make a positive global impact by developing creative software solutions.
-                                <br>Thank you for your time and attention.</p>
-
-                            <div class="white-button button">
-                                <a href="#about">Explore</a>
-                            </div>
-                        </div>
+                    <div>
+                      <h1>Home</h1>
+                      <p>Eager to bring dynamic innovations to the tech industry and make a positive global impact by developing creative software solutions.
+                        <br>Thank you for your time and attention.</p>
+                      
+                      <div class="white-button button">
+                          <a href="#about">Explore</a>
+                      </div>
+                    </div>
                     </div>
                 </div>
             </div>
             <!-- // Item -->
         </div>
     </div>
+
 
     <div class="page-content">
         <section id="about" class="content-section">
@@ -148,21 +188,22 @@
                 <br> Hello, I'm Alexander Harry <br> I am a dynamic Computer Scientist pursuing a Master of Science in Computer Science at Philipps-University Marburg. With a solid foundation from my Bachelor's in Computer Engineering from Kharkiv National University of Radio Electronics, I possess a diverse skill set in programming languages including Python, JavaScript, Scala, and C++, and expertise in web technologies like React.js and Node.js.
 
                 My passion for infusing creativity into my projects extends to data analysis and machine learning, where I utilize powerful frameworks like TensorFlow and Keras to drive innovation. My projects showcase this versatility, from developing a personal portfolio website to crafting an interactive Covid-19 dashboard.
-
+                
                 Professionally, I've honed my sales assistant and IT support intern abilities and excelled in time management, teamwork, and problem-solving. Fluent in English and proficient in German, I am committed to pushing the boundaries of technology.
-
+                
                 Residing in Marburg, I am a software enthusiast interested in data analysis, full-stack development, artificial intelligence, and computer vision. This website is a testament to my journey, skills, and aspirations. Welcome to my official portfolio, where innovation meets excellence.
                 <h4>Technologies I Work With</h4>
-                <ul>
-                    <li>Python</li>
-                    <li>JavaScript ES6+</li>
-                    <li>Scala</li>
-                    <li>Pandas & Spark</li>
-                    <li>React.js & Node.js</li>
-                    <li>HTML & CSS</li>
-                </ul>
-                <!-- Include any necessary JavaScript here -->
+                    <ul>
+                        <li>Python</li>
+                        <li>JavaScript ES6+</li>
+                        <li>Scala</li>
+                        <li>Pandas & Spark</li>
+                        <li>React.js & Node.js</li>
+                        <li>HTML & CSS</li>
+                    </ul>
+                    <!-- Include any necessary JavaScript here -->
                 <br>Beyond my professional life, I am passionate about a variety of interests that bring vibrancy and balance to my days. I'm an avid music enthusiast, always on the lookout for new tunes and genres to explore. Gaming is another passion of mine; I love diving into immersive worlds and testing my strategic skills. Football and table tennis are my go-to sports, offering a perfect mix of teamwork, competition, and physical activity. Additionally, I have a keen eye for photography, capturing stunning moments and turning them into visual stories. My portfolio includes some of my favorite shots each one, a testament to my creativity and attention to detail. Moreover, I am passionate about maintaining a healthy lifestyle, and regularly hitting the gym to stay fit and energized.
+            </p>
             </div>
             <div class="section-content">
                 <div class="owl-carousel owl-theme">
