@@ -69,7 +69,10 @@
     color: inherit;
     border: none;
     padding: 0 !important;
-    font: inherit; }
+    font: inherit; 
+    width: 50px;
+    height: 50px;
+    font-size: 2em;}
   .owl-carousel.owl-loaded {
     display: block; }
   .owl-carousel.owl-loading {
