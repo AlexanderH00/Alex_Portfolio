@@ -20,6 +20,63 @@
        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 
        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+       <style>
+        .owl-prev, .owl-next {
+            color: #fff;
+            display: inline-block;
+            font-size: 60px; /* Increase the font size */
+            opacity: 1;
+            transition: all 0.3s;
+        }
+
+        .owl-prev:hover, .owl-next:hover {
+            color: #ddd;
+        }
+
+        .owl-dots {
+            display: none;
+        }
+
+        .owl-nav {
+            text-align: center;
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top: 45%;
+            z-index: 999;
+        }
+
+        .owl-prev {
+            position: absolute;
+            left: 20px;
+            top: 20px;
+        }
+
+        .owl-next {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+        }
+
+        .item .img-fill {
+            min-width: 100%;
+            min-height: 100vh;
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+
+        .item .img-fill img {
+            visibility: hidden;
+        }
+
+        .info {
+            padding-left: 20%; /* Adjust this value to ensure enough space from the sidebar */
+        }
+    </style>
    </head>
 
 <body>
