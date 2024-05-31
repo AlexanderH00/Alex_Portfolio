@@ -1,11 +1,3 @@
-<h1 align="center">
-  alexanderharry.com - v1
-</h1>
-
-<p align="center">
-  The first version of <a href="https://alexanderharry.com/" target="_blank">alexharry.com</a> built with HTML & CSS
-</p>
-
 # My Personal Portfolio Website
 
 [https://alexanderharry.com/](https://alexanderharry.com/)
